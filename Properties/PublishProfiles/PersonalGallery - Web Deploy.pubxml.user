@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5u3VrRE4Aki8N/fhgD9juAAAAAACAAAAAAADZgAAwAAAABAAAAB0BA4wL3aYwYWPYBKqLsYnAAAAAASAAACgAAAAEAAAAFkKE4sqmfXDXjsOTD1vrrqAAAAApfeOSMmm9sveEtSQVCGv5O21slpkuL9N+Rlixt+eC9BkGxBuP215IdY5ahFs8gMqRiRbDB+e+0uitZEiyi75KyE/UARamLUKV18559xHpYcfeF/TTWPqlgXs0JpS0hG4mKLJ5AVIdkpn7hWnzfJ4fln4j5Rn+jcxDZAFTmH7ptwUAAAAVX4H8ARaAaiXOeiBexAtKpAnbcc=</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:personalgallerydbserver.database.windows.net,1433%3bInitial Catalog=PersonalGallery_db%3bUser Id=Zinande%40personalgallerydbserver%3bPassword=Zz12345.</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="PersonalGalleryContext">
+      <Value>Data Source=tcp:personalgallerydbserver.database.windows.net,1433%3bInitial Catalog=PersonalGallery_db%3bUser Id=Zinande%40personalgallerydbserver%3bPassword=Zz12345.</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PersonalGallery.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:personalgallerydbserver.database.windows.net,1433%3bInitial Catalog=PersonalGallery_db%3bUser Id=Zinande%40personalgallerydbserver%3bPassword=Zz12345.</Value>
+    </EFMigrations>
+    <EFMigrations Include="PersonalGallery.Data.PersonalGalleryContext">
+      <Value>Data Source=tcp:personalgallerydbserver.database.windows.net,1433%3bInitial Catalog=PersonalGallery_db%3bUser Id=Zinande%40personalgallerydbserver%3bPassword=Zz12345.</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
