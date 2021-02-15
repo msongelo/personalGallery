@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\28745604\source\repos\PersonalGallery\PersonalGallery\obj\Release\netcoreapp3.1\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\28745604\source\repos\PersonalGallery\PersonalGallery\obj\Release\netcoreapp3.1\PubTmp\EFSQLScripts\PersonalGallery.Data.ApplicationDbContext.sql" />
+  <dbfullsql path="C:\Users\28745604\source\repos\PersonalGallery\PersonalGallery\obj\Release\netcoreapp3.1\PubTmp\EFSQLScripts\PersonalGallery.Data.PersonalGalleryContext.sql" />
+</sitemanifest>

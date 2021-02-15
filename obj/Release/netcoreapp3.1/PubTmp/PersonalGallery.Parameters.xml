@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PersonalGallery" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\28745604\\source\\repos\\PersonalGallery\\PersonalGallery\\obj\\Release\\netcoreapp3\.1\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="PersonalGallery.Data.ApplicationDbContext" description="" value="Data Source=tcp:personalgallerydbserver.database.windows.net,1433;Initial Catalog=PersonalGallery_db;User Id=Zinande@personalgallerydbserver;Password=Zz12345." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\28745604\\source\\repos\\PersonalGallery\\PersonalGallery\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\PersonalGallery\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+  <parameter name="PersonalGallery.Data.PersonalGalleryContext" description="" value="Data Source=tcp:personalgallerydbserver.database.windows.net,1433;Initial Catalog=PersonalGallery_db;User Id=Zinande@personalgallerydbserver;Password=Zz12345." tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\28745604\\source\\repos\\PersonalGallery\\PersonalGallery\\obj\\Release\\netcoreapp3\.1\\PubTmp\\EFSQLScripts\\PersonalGallery\.Data\.PersonalGalleryContext\.sql$" />
+  </parameter>
+</parameters>
